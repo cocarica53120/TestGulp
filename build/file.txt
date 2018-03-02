@@ -1,0 +1,8 @@
+'foo' (at begin of line) will be replaced by 'bgn' in ouput
+'foo' (at end of line) will be replaced by 'end' in ouput
+
+ABCend
+123end
+bgnXYZ
+ABCDfoo123
+

@@ -1,0 +1,3 @@
+replace 97 by 122 : bbbbaaaaaaaaaaaaacccc
+replace 122 by 97 : xxxxzzzzzzzzzzzzzzzzzzzzzyyyy
+
