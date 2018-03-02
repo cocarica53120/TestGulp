@@ -11,6 +11,7 @@
 
 var gulp = require('gulp');
 
+
 gulp.task('hello', () => {
 	console.log('hello world of gulp');
 });
@@ -80,3 +81,23 @@ gulp.watch('file.txt', ['templates'])
 
 
 gulp.task('default', ['hello','copyHtml', 'copyJs', 'custom', 'templates']);
+
+
+
+
+
+
+/*
+ * let myEnv = process.env.TOTO;
+ * console.log('myEnv', myEnv);
+ * let myArgs = process.argv;
+ * console.log('myArgs', myArgs);
+ * http://stackabuse.com/command-line-arguments-in-node-js/
+ */
+
+let myEnv = process.env.TOTO;
+console.log('myEnv', myEnv);
+
+let myArgs = process.argv;
+console.log('myArgs', myArgs);
+
